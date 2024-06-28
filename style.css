@@ -1,8 +1,26 @@
+body {
+    background-color: rgba(24, 31, 54, 0.938);
+}
+
 .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
+    width: 100vw;
+    height: 50vw;
     border: 2px solid;
+    background-color:rgba(40, 53, 99, 0.938);
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
     
 }
